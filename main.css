@@ -1,0 +1,41 @@
+.container {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+.box {
+  padding: 20px;
+  width: calc(80% / 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(213, 117, 234, 0.849);
+  border-radius: 10px;
+}
+
+.box button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: rgba(213, 117, 234, 0.552);
+  color: rgb(94, 4, 114);
+  padding: 30px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s rgba(94, 4, 114, 0.552);
+}
+.box button:hover {
+  background-color: rgba(94, 4, 114, 0.552);
+  color: white;
+}
+.box span {
+  padding: 5px 10px;
+  background-color: rgba(94, 4, 114, 0.552);
+  border-radius: 20px;
+}
